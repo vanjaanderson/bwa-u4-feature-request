@@ -1,0 +1,79 @@
+/*.PreviewPopUp {
+  position: fixed;
+  width: 345px;
+  height: 500px;
+  margin: 50%;
+  margin-top: -250px;
+  margin-left: -172.50px;
+}*/
+.PreviewPopUp {
+  position: absolute;
+  width: 46%;
+  height: 348px;
+  margin: auto;
+  top: 40%;
+  left: 26%;
+  background-color: #010c3f;
+  padding: .88rem;
+  box-shadow: 0 0 4px #6F2C8B;
+  display: none;
+}
+.PreviewPopUp a {
+    text-decoration: underline;
+    margin-bottom: 6px;
+}
+.PreviewPopUp a:hover {
+  color: #6F2C8B;
+  cursor: pointer;
+}
+.PreviewPopUp h2 {
+  color: #fff;
+  border-bottom: 1px solid #6f6f6f;
+  padding-bottom: 6px;
+}
+.PreviewPopUp h3 {
+  padding: 6px 0;
+  margin: 16px 0 2px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #6F2C8B;
+}
+.PreviewPopUp p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(256, 256, 256, 0.8);
+  line-height: 1.4;
+}
+.PreviewPopUp .bold {
+  font-weight: 400;
+}
+.PreviewPopUp img {
+  width: 300px;
+  position: absolute;
+  top: 3.6rem;
+  right: 0.88rem;
+}
+.right {
+  float: right;
+}
+.close {
+  cursor: pointer;
+}
+a.Track-save {
+  position: relative;
+  top: 65px;
+  left: 85px;
+  cursor: pointer;
+  width: auto;
+  padding: .77rem 1rem;
+  border-radius: 54px;
+  margin-top: 1.27rem;
+  background-color: #6c41ec;
+  text-align: center;
+  font-size: .83rem;
+  transition: background-color .25s;
+  text-decoration: none;
+}
+.Track-save:hover {
+  background-color: rgba(108, 65, 233, .7);
+}
